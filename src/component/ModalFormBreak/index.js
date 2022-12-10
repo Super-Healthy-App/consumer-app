@@ -18,7 +18,7 @@ function ModalFormBreak(){
     }
 
     return (
-        <div>
+        <div className='modalButton'>
             <button onClick={openModal}>coba dulu</button>
             <ReactModal isOpen={modalIsOpen} onRequestClose={closeModal} ariaHideApp={false}>
     
