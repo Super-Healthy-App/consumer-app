@@ -13,6 +13,13 @@ function ContextProvider(props) {
     const [calorieAge, setCalorieAge] = useInput('')
     const [calorieGender, setCalorieGender] = useState('male')
     const [calorieActivity, setCalorieActivity] = useInput('')
+    const [modalIsOpen, setModalIsOpen] = useState(false)
+    const [timeValue1, setTimeValue1] = useState(null)
+    const [timeValue2, setTimeValue2] = useState(null)
+    const [totalSecond, setTotalSecond] = useState(0)
+    const [isCheckedManual, setisCheckedManual] = useState(false)
+    const [manualTimer, setManualTimer] = useState()
+
     
 
 
@@ -31,7 +38,19 @@ function ContextProvider(props) {
             calorieGender,
             setCalorieGender,
             calorieActivity,
-            setCalorieActivity
+            setCalorieActivity,
+            modalIsOpen,
+            setModalIsOpen,
+            timeValue1,
+            setTimeValue1,
+            timeValue2,
+            setTimeValue2,
+            totalSecond,
+            setTotalSecond,
+            isCheckedManual,
+            setisCheckedManual,
+            manualTimer,
+            setManualTimer
         }}>
             {props.children}
         </DataContext.Provider>

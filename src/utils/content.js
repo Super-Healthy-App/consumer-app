@@ -67,6 +67,14 @@ let content = {
             activity5: 'Sangat Berat',
             calorieResult: 'Hasil Perhitungan',
             line1: 'Kalori yang diperlukan tubuh anda adalah : ',
+        },
+
+        break: {
+            formTitle: 'Pilih waktu anda',
+            startLabel : 'Waktu Awal',
+            endLabel : 'Waktu Akhir',
+            checkBoxLabel : 'Pengingat Manual',
+            manualLabel : 'ingatkan setiap : ',
         }
     },
 
@@ -134,6 +142,14 @@ let content = {
             activity5: 'Very Heavy',
             calorieResult: 'Calculation Result',
             line1: 'The calories required by your body are : ',
+        },
+
+        break: {
+            formTitle: 'Choose your time',
+            startLabel : 'Start Time',
+            endLabel : 'End Time',
+            checkBoxLabel : 'Manual Reminder',
+            manualLabel : 'remind every : ',   
         }
     }
 }
