@@ -1,10 +1,9 @@
 import React from "react";
-import CalorieForm from "../../component/CalorieForm";
 
 const Calorie = () => {
     return (
         <div>
-            <CalorieForm />
+            <h1>Calorie</h1>
         </div>
     );
 }

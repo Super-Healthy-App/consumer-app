@@ -7,8 +7,6 @@ header{
     
 }
 
-
-
 nav{
     z-index: 1;
     position:fixed;
@@ -22,6 +20,15 @@ nav{
     text-decoration: none;
     overflow: hidden;
     list-style-type: none;
+}
+
+nav h1 a {
+    margin-right: 195px;
+}
+
+header nav img {
+    padding: 0px;
+    margin-left: 25px;
 }
 
 ul{
