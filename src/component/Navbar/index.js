@@ -3,12 +3,16 @@ import { Link } from 'react-router-dom'
 import useLanguage from '../../hook/useLanguage'
 import LangToggler from '../LangToggler'
 import './index.css'
+import superhealthapp from '../../assets/superhealthapp.png'
 
 function Navbar() {
     const text = useLanguage()
     return (
         <header>
             <nav>
+                <div classname="logo">
+                    <img src= {superhealthapp} height="70px" width="80px" alt="logo"></img>
+                </div>
                 <h1>
                     <Link to="/">Super Health APP</Link>
                 </h1>
