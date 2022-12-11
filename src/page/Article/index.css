@@ -1,0 +1,8 @@
+.Articles a {
+    line-height: 1.5;
+    margin: 0 0 0 10px;
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    padding: 0 0 0 10px;
+}

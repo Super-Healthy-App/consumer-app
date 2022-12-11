@@ -1,0 +1,8 @@
+.form-time{
+    margin: 3em;
+}
+
+.timePicker{
+    display: flex;
+    flex-direction: column;
+}

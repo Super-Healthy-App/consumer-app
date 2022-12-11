@@ -1,0 +1,21 @@
+:root {
+  --primary: #bb86fc;
+  --primary-variant: #3700b3;
+  --secondary: #03dac6;
+  --background: #202124;
+  --surface: #202124;
+  --error: #cf6679;
+  --warning: #f39c12;
+  --text: #ffffff;
+  --on-hover-text: #c7c7c7;
+}
+
+[data-theme="light"] {
+--primary: #38FF88;
+  --background: #dddddd;
+  --suface: #ffffff;
+  --on-background: #333333;
+  --on-background-grey: #6d6d6d;
+  --on-surface: #333333;
+
+}
