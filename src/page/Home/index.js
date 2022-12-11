@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import useLanguage from '../../hook/useLanguage'
-import Clock from 'react-live-clock';
 import YoutubeBackground from 'react-youtube-background'
-
+import Clock from 'react-live-clock'
 import './index.css'
 const Home = () => {
 
