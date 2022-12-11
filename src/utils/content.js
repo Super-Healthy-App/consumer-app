@@ -101,21 +101,21 @@ let content = {
             article : 'Article',
             about : 'About Us',
         },
-        home: {
-            title: 'Jaga kesehatan mata anda dari kegiatan repetitif dan ketegangan mata',
-            button: 'Mulai Bersama Kami',
+       home: {
+            title: 'Save your eyes from RSI and eye strain',
+            button: 'Get Started',
             rsi: {
-                title: 'Cedera Regangan Berulang (RSI)',
-                desc: 'RSI adalah kondisi ketegangan dan nyeri pada otot-otot yang terjadi karena kegiatan yang berulang-ulang. Kondisi ini dapat terjadi pada otot-otot tangan, kaki, leher, dan punggung. RSI dapat terjadi pada siapa saja, termasuk anak-anak, remaja, orang dewasa, dan orang tua. RSI dapat terjadi karena kegiatan yang berulang'
+                title: 'Repetitive Strain Injury (RSI)',
+                desc: 'RSI is a condition of tension and pain in the muscles that occurs due to repetitive activities. This condition can occur in the muscles of the hands, feet, neck, and back. RSI can occur in anyone, including children, teenagers, adults, and the elderly. RSI can occur due to repetitive activities'
             },
             solve: {
-                title: 'Bagaimana cara mengatasinya',
-                desc: 'RSI dapat dicegah dengan mengambil istirahat dari kegiatan yang menyebabkannya. Jika Anda mengalami RSI, Anda juga dapat mengambil langkah untuk menghilangkan rasa sakit dan ketegangan pada otot-otot Anda. Langkah-langkah ini termasuk istirahat otot, menerapkan panas atau es ke area yang terkena, dan mengambil obat penenang bebas. Jika Anda mengalami RSI, Anda juga harus melihat dokter untuk mendapatkan diagnosis dan rencana perawatan.'
+                title: 'How to solve RSI',
+                desc: 'RSI can be prevented by taking a break from the activity that causes it. If you have RSI, you can also take steps to relieve the pain and tension in your muscles. These steps include resting your muscles, applying heat or ice to the affected area, and taking over-the-counter pain relievers. If you have RSI, you should also see a doctor to get a diagnosis and treatment plan.'
             },
             endSection: {
-                title: 'Kami disini untuk membantu memantau kesehatan anda',
-                desc: 'biarkan kami membantu untuk memantau kesehatan Anda dan mencegah RSI dengan membatasi menit anda bermain komputer',
-                button: 'Mulai Sekarang'
+                title: 'We are here to help monitoring your health',
+                desc: 'Let us help you to monitor your health and prevent RSI by limit your minutes of playing computer',
+                button: 'Get Started'
             }
         },
 
