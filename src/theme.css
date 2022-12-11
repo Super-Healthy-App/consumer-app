@@ -11,9 +11,11 @@
 }
 
 [data-theme="light"] {
+--primary: #38FF88;
   --background: #dddddd;
   --suface: #ffffff;
   --on-background: #333333;
   --on-background-grey: #6d6d6d;
   --on-surface: #333333;
+
 }

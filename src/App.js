@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import ThemeContext from './context/ThemeContext'
 import LocaleContext from './context/LocaleContext'
+import { ContextProvider } from './context/DataContext'
 import useLanguage from './hook/useLanguage'
 import Navbar from './component/Navbar'
 import Routes from './route'
@@ -14,14 +15,16 @@ const App = () => {
     const valueLocale = useMemo(() => ({ locale, setLocale }), [locale, setLocale])
 
     return (
-        <ThemeContext.Provider value={value}>
-            <LocaleContext.Provider value={valueLocale}>
+
+        <LocaleContext.Provider value={valueLocale}>
+            <ContextProvider>
                 <div className="App">
                     <Navbar />
                     <Routes />
                 </div>
-            </LocaleContext.Provider>
-        </ThemeContext.Provider>
+            </ContextProvider>
+        </LocaleContext.Provider>
+
     )
 
 
