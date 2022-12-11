@@ -12,9 +12,6 @@ function handleSubmit(event) {
 function BmiForm() {
     const text = useLanguage()
     const { height, setHeight, weight, setWeight, setBmi } = useContext(DataContext)
-    const refreshPage = () => {
-        window.location.reload();
-    }
 
 
     return (
@@ -39,7 +36,7 @@ function BmiForm() {
                     onChange={setWeight}
                 />
                 <br></br>
-                <button className='buttonReset' onClick={refreshPage}>{text.bmi.buttonReset}</button>
+                
 
             </div>
         </div>
