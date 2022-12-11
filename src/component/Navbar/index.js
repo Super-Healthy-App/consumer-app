@@ -10,12 +10,9 @@ function Navbar() {
     return (
         <header>
             <nav>
-                <div classname="logo">
+                <div className="logo">
                     <img src= {superhealthapp} height="70px" width="80px" alt="logo"></img>
                 </div>
-                <h1>
-                    <Link to="/">Super Health APP</Link>
-                </h1>
                 <ul className='topnav' id='myTopNav'>
                     <li>
                         <Link to="/">{text.nav.home}</Link>

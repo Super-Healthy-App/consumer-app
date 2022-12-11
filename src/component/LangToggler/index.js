@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import LocaleContext from '../../context/LocaleContext'
+import './index.css'
 
 export default function LangToggler() {
     const { locale, setLocale } = useContext(LocaleContext)

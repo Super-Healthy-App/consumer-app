@@ -1,0 +1,66 @@
+.formContainer{
+
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 13px 11px 2px rgba(196,196,196,0.75);
+    -webkit-box-shadow: 1px 13px 11px 2px rgba(196,196,196,0.75);
+    -moz-box-shadow: 1px 13px 11px 2px rgba(196,196,196,0.75);
+    
+}
+
+.bmi-form{
+    padding: 0 20px;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.titleForm{
+    background-color: #38FF88;
+    padding:20px 70px;
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.bmi-form input{
+  background-color: #D9D9D9;
+  border: 0;
+  font-family: 'Inter', sans-serif;
+  padding: 8px 0;
+  margin: 10px 0;
+  width: 50%;
+  border-radius: 5px;
+
+}
+
+.bmiDescription{
+    font-size: large;
+    margin: 20px 20px;
+}
+
+.buttonReset{
+    background-color: #D9D9D9;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    padding: 8px 0;
+    margin: 10px 0;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.buttonReset:hover{
+    background-color: #38FF88;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
