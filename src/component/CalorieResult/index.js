@@ -38,7 +38,7 @@ function CalorieResult() {
     return(
         <div className='calorie-result'>
             <h1>{text.calorie.calorieResult}</h1>
-            <span>{calorieNeed(calorieHeight, calorieWeight, calorieAge, calorieGender, calorieActivity)}</span>
+            <span>{calorieNeed(calorieHeight, calorieWeight, calorieAge, calorieGender, calorieActivity)} Cal</span>
         </div>
     )
    
