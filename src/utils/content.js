@@ -1,7 +1,3 @@
-
-
-
-
 let content = {
     id: {
         nav: {
@@ -70,6 +66,8 @@ let content = {
         },
 
         break: {
+            title: 'Pengingat Istirahat',
+            desc: 'Kami akan mengingatkan anda untuk beralih ke aktivitas lainnya setelah waktu berikut.',
             formTitle: 'Pilih waktu anda',
             startLabel : 'Waktu Awal',
             endLabel : 'Waktu Akhir',
@@ -145,6 +143,8 @@ let content = {
         },
 
         break: {
+            title: 'Break Reminder',
+            desc: 'We will remind you to switch to another activity after the following time.',
             formTitle: 'Choose your time',
             startLabel : 'Start Time',
             endLabel : 'End Time',

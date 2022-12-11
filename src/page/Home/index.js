@@ -14,6 +14,8 @@ const Home = () => {
             <YoutubeBackground
                 videoId='CLk7A7HXhYQ'
                 className={'video'}
+                mute={true}
+                loop={true}
             >
                 <div className='contentHead'>
                     <div className='centerContent'>

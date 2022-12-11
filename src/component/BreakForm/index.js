@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import './index.css'
 import { DataContext } from '../../context/DataContext'
 import TextField from '@mui/material/TextField';
@@ -35,12 +35,16 @@ function BreakForm() {
         hour2 = hour2 * 3600
         minute2 = minute2 * 60
         totalSecond2 = hour2 + minute2
+
     }
 
-    if (timeValue1 !== null && timeValue2 !== null) {
+    useEffect(() => {
         let totalSecond = totalSecond2 - totalSecond1
         setTotalSecond(totalSecond)
-    }
+    }, [setTotalSecond, totalSecond, totalSecond1, totalSecond2])
+
+    console.log('total second form : ' + totalSecond)
+
 
 
     const handleChange = (event) => {

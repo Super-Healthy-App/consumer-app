@@ -1,0 +1,80 @@
+.breakPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #202124;
+  width: 100%;
+  height: 95vh;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.breakTitle {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.button1,
+.button2,
+.button3 {
+  width: 4em;
+  height: 2em;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1:hover {
+  background-color: #28bd64;
+  border: #28bd64;
+  transition: 0.5s;
+}
+
+.button2:hover {
+  background-color: red;
+  border: red;
+  transition: 0.5s;
+}
+
+.button3:hover {
+  background-color: yellowgreen;
+  border: yellowgreen;
+  transition: 0.5s;
+}
+
+.timer {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.status {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.breakDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-color: #202124;
+  color: white;
+}

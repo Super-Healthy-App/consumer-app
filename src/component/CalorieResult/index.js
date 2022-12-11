@@ -30,6 +30,8 @@ function CalorieResult() {
        
         
     }
+
+    
     
     console.log(calorieActivity);
 
