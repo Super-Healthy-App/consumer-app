@@ -88,9 +88,7 @@ const Home = () => {
                 {text.home.endSection.button}
             </button>
                 </Link>
-                <div className='mobile'>
-                    <h1>Silahkan gunakan Laptop anda untuk mengakses fitur website lebih lanjut</h1>
-                </div>
+
             </div>
 
         </div>

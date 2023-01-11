@@ -27,8 +27,10 @@ const CalorieForm = () => {
             <div className='title'>
                 <h1>{text.calorie.title}</h1>
             </div>
+            <div className='descriptionSection'>
+                <span className='description'>{text.calorie.desc}{text.calorie.desc2}</span>
+            </div>
 
-            <span className='description'>{text.calorie.desc}{text.calorie.desc2}</span>
             <div className='calorieFormContainer'>
                 <h2>{text.calorie.gender}</h2>
                 <div className="gender">
