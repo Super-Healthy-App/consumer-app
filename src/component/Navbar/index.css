@@ -60,12 +60,40 @@ a:visited{
     text-decoration: none;
 }
 
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    width: 300px;
+    background: #f1f1f1;
+    transition: left 0.3s ease;
+}
+.sidebar-container.open {
+    left: 0;
+}
+.sidebar-container.closed {
+    left: -300px;
+}
 
 
 
 @media (max-width: 768px) {
-    header{
+    .sidebar-container {
+        position: static;
+        width: 100%;
+        left: 0;
+        top: 0;
+      }
+    nav{
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      .logo{
         display: none;
-    }
-
+      }
+      header{
+        font-size: small;
+      }
 }

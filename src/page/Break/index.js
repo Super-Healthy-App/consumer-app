@@ -9,7 +9,7 @@ const STATUS = {
     STOPPED: 'Stop',
 }
 
-let INITIAL_COUNT = 1800
+let INITIAL_COUNT = 60
 
 export default function CountdownApp() {
     const text = useLanguage()

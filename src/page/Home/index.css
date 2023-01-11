@@ -143,12 +143,6 @@ html {
     .right{
         width: 100%;
     }
-    .endSection button{
-        display: none;
-    }
 
-    .mobile{
-        display: block;
-        color: red;
-    }
+
 }

@@ -16,3 +16,9 @@
 .calorie-result h1{
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .calorie-result{
+        width: 100%;
+    }
+}
